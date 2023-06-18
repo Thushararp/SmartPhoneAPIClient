@@ -1,4 +1,4 @@
-#.net Framework used
+# .net Framework used
 	.net6
 # Logging Library used: 
 	nLog by Microsoft
