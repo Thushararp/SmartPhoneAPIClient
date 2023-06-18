@@ -21,17 +21,17 @@
    - Didn't separate this to two further projects to have a separate composition root project (console app) and a separate class library project for the presentation layer. 
 		
 ## Service / Business Logic Layer:		
- - Service.Contract
+ - Service.Contract:
 	This project contains the interfaces for the Authentication and SmartPhone services	
-- Service
+- Service:
 	This project contains the actual implmentation of the service interfaces defined in the Service.Contract project.		
-- LoggerService.Contract
+- LoggerService.Contract:
 	This project contains the interface for the LoggerMananger service.	
-- LoggerService
+- LoggerService:
 	This project contains the actual implmentation of the LoggerMananger interface defined in the oggerService.Contract project
 		
 # Unit Tests:
- - SmartPhoneAPIClientTest
+ - SmartPhoneAPIClientTest:
 	This project containts unit tests for the services used in this application.
 	
 	
