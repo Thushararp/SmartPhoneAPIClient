@@ -28,7 +28,7 @@
 - LoggerService.Contract:
 	This project contains the interface for the LoggerMananger service.	
 - LoggerService:
-	This project contains the actual implmentation of the LoggerMananger interface defined in the oggerService.Contract project
+	This project contains the actual implmentation of the LoggerMananger interface defined in the LoggerService.Contract project
 		
 # Unit Tests:
  - SmartPhoneAPIClientTest:
