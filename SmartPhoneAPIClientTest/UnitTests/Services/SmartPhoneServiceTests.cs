@@ -205,7 +205,7 @@ namespace ServiceTests
                     Times.Exactly(1),
                     ItExpr.Is<HttpRequestMessage>(req =>
                         req.Method == HttpMethod.Put &&
-                        req.RequestUri == new Uri($"{_smartPhoneService.HTTPClient.BaseAddress}{smartphonesToUpdate[0].Id}")),
+                        req.RequestUri == new Uri($"{_smartPhoneService.HTTPClient.BaseAddress}{smartphonesToUpdate[i].Id}")),
                     ItExpr.IsAny<CancellationToken>());
             }
         }
